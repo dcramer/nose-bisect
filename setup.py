@@ -12,7 +12,8 @@ setup(
     author_email='dcramer@gmail.com',
     description='A Nose plugin which allows bisection of test failures.',
     url='http://github.com/dcramer/nose-bisect',
-    packages=find_packages(exclude=["tests"]),
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
     zip_safe=False,
     install_requires=[
         'nose>=0.9',
