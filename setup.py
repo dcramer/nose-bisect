@@ -16,7 +16,7 @@ setup(
     package_dir={'': 'src'},
     zip_safe=False,
     install_requires=[
-        'nose>=0.9',
+        'nose>=1.0,<2.0',
     ],
     entry_points={
        'nose.plugins.0.10': [

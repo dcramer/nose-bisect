@@ -1,3 +1,4 @@
+# coding: utf-8
 """
 nose_bisect.plugin
 ~~~~~~~~~~~~~~~~~~
@@ -168,7 +169,7 @@ def make_bisect_runner(parent, bisect_label):
     return inst
 
 
-class BisectTests(Plugin):
+class BisectPlugin(Plugin):
     score = -sys.maxint
 
     def options(self, parser, env):
