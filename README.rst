@@ -1,7 +1,9 @@
 nose-bisect
 ===========
 
-Easily bisect your test suite and find test-on-test failures.
+Inspired by Django's internal bisect tool, easily bisect your test suite and find test-on-test failures.
+
+More importantly: Test FOO fails when run when test X, bisect will tell you what X is.
 
 ::
 
